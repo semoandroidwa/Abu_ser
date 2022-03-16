@@ -21,21 +21,27 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: 'command help menu'}, (as
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `
    ` + config.LOGO_NAME + `
 
-*Oᴡɴᴇʀ number Aʙᴜ* :https://wa.me/917025994178.            
+*Oᴡɴᴇʀ Nᴜᴍʙᴇʀ* :https://wa.me/` + config.PHONE + `*            
 
 
-*Wʜᴀᴛsᴀᴘᴘ Gʀᴏᴜᴘ Aʙᴜ sᴇʀ* :https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk_.
+*Wʜᴀᴛsᴀᴘᴘ Gʀᴏᴜᴘ* :` + config.GROUP + `*
 
 
-*Gɪᴛ Lɪɴᴋs* : https://github.com/Afx-Abu/Abu_ser.
+*Iɴsᴛᴀ Lɪɴᴋ* :` + config.INSTA + `*
 
 
-*Aᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/bgm.
+*Uᴛ ʟɪɴᴋ* :` + config.YT + `*
 
 
-*sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/stickers.
+*Gɪᴛ Lɪɴᴋs* : https://github.com/Afx-Abu/Abu_ser*
 
-*` + config.LOGO_NAME + `*
+
+*Aᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/bgm*
+
+
+*sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/stickers*
+
+*ᴛʜɪs ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ` + config.OA_NAME + `*
 
 `}) 
 
