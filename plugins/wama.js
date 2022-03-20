@@ -7,7 +7,7 @@ const cwebp = require('cwebp-bin');
 const Config = require('../config');
 
 const Language = require('../language');
-const Lang = Language.getString('wama'); // Language support
+const Lang = Language.getString('unvoice'); // Language support
 
 if (Config.WORKTYPE == 'public') {
 
